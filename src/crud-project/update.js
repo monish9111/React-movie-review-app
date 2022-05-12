@@ -34,8 +34,8 @@ const Update = () => {
                         <input type="text" className="form-control" placeholder='name' value={ name} onChange={(e)=>setName(e.target.value)}/>
                     </div>
                     <div className='form-group'>
-                        <label>Position</label>
-                        <input className="form-control" type="text" placeholder='position' value={rew} onChange={(e)=>setrew(e.target.value)} />
+                        <label>Review</label>
+                         <textarea rows="3" cols="40" className="form-control" type="text" placeholder='review' value={rew} onChange={(e)=>setrew(e.target.value)} ></textarea>
                     </div>
                     <div className='d-grid text-center mt-3'>
                         <button className='btn btn-lg btn-primary' onClick={handleSubmit}>Update</button>

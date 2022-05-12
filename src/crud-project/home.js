@@ -33,7 +33,7 @@ const Home = () => {
     })
 
    }
-   const  handleUpdate=(id,name,pos)=>{
+   const  handleUpdate=(id,name,rew)=>{
        localStorage.setItem('id',id);
        localStorage.setItem('name',name);
        localStorage.setItem('rew',rew);
